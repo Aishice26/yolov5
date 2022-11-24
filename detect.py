@@ -32,7 +32,8 @@ import sys
 from pathlib import Path
 
 import torch
-
+import sys
+sys.path.insert(0, './yolov5')
 FILE = Path(__file__).resolve()
 ROOT = FILE.parents[0]  # YOLOv5 root directory
 if str(ROOT) not in sys.path:
